@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: lightgray;
+    border-radius: 0px;
+    border: 2px solid black;
+
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0;
+    line-height: .6;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#collapsable-nav {
+    background-color: lightgray;
+    padding: 0;
+}
+
+#nav-list a.chicken, #nav-list a.beef {
+    border-bottom: 1px solid white;
+}
+
+#collapsable-nav li a:hover {
+    background-color: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 20px;
+}
+
+.row {
+    margin: 10px;
+}
+
+#chicken {
+    background-color: lightgray;
+}
+
+h3 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
